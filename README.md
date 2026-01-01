@@ -47,7 +47,7 @@ This **sense → think → act → learn** loop is the core of Agentic AI.
 └──────────────┬─────────────┘
                ↓
 ┌────────────────────────────┐
-│ Network Visibility Layer │
+│ Network Visibility Layer   │
 │ (Scanning, Packet Capture) │
 └──────────────┬─────────────┘
                ↓
@@ -62,8 +62,8 @@ This **sense → think → act → learn** loop is the core of Agentic AI.
 └──────────────┬─────────────┘
                ↓
 ┌────────────────────────────┐
-│ Decision & Action Layer │
-│ Firewall | Honeypot │
+│ Decision & Action Layer    │
+│ Firewall | Honeypot        │
 └──────────────┬─────────────┘
                ↓
 ┌────────────────────────────┐
