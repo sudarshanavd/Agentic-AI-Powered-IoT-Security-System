@@ -39,38 +39,6 @@ This **sense → think → act → learn** loop is the core of Agentic AI.
 
 ---
 
-## 🏗️ High-Level Architecture
-
-
-
-```mermaid
-flowchart TB
-    %% Home Network
-    A[Home Network Traffic<br/>(IoT Devices & Router)]
-
-    %% Visibility
-    B[Network Visibility Layer<br/>(Scanning, Packet Capture)]
-
-    %% Detection
-    C[Detection Layer<br/>(Anomaly & Risk Analysis)]
-
-    %% Agentic AI
-    D[Agentic AI Layer<br/>(LangChain Reasoning Agent)]
-
-    %% Decision & Action
-    E[Decision & Action Layer<br/>Firewall | Honeypot]
-
-    %% User Interface
-    F[User Dashboard & Alerts]
-
-    %% Flow
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
----
-
 ## 🤖 Agentic AI Design (LangChain)
 
 ### Role of LangChain
